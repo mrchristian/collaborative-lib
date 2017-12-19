@@ -1,6 +1,12 @@
+# Collaborative Open Science Library - COS-Lib
+
+# How to
+
 # Credits
 
 2017
+
+Open Science Lab, TIB
 
 2016
 

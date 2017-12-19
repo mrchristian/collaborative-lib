@@ -1,3 +1,9 @@
+# COS-Lib
+
+Web https://hybrid-publishing-group.github.io/cos-lib/
+
+Zotero group https://www.zotero.org/groups/1838445/o-s
+
 # Collaborative Open Science Library - COS-Lib
 
 # How to

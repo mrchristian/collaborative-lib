@@ -1,6 +1,6 @@
 # COS-Lib
 
-Web https://hybrid-publishing-group.github.io/cos-lib/
+Web https://hybrid-publishing-group.github.io/cos-library/
 
 Zotero group https://www.zotero.org/groups/1838445/o-s
 

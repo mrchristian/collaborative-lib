@@ -68,16 +68,6 @@ p {
     line-height: 1.5em;
     padding-bottom: 1em;
 }
-
-p.abstract  {
-  display: block; /* or inline-block */
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: hidden;
-  max-height: 3em;
-  line-height: 1em;
-}
-
 .drawer {
     padding: 20px;
 /*    border-left: 4px solid black;*/
@@ -117,7 +107,7 @@ p.abstract  {
     border-top: 3px solid black;
     border-left: 3px solid black;
     background-color: white;
-    height: 400px;
+    height: auto;
     width: 700px;
     position: absolute;
     padding: 20px 30px;
@@ -141,6 +131,7 @@ p.abstract  {
     padding-bottom: 20px;
     max-width: 700px;
     min-height: 20px;
+    clear: both;
 }
 .item-type {
     text-transform: uppercase;
@@ -163,6 +154,15 @@ p.abstract  {
     min-height: auto;
     margin-bottom: 1em;
 }
+.item-link {
+    width: 100%;
+    min-height: auto;
+    margin-bottom: 1em;
+    float: left;
+    clear: both;
+    word-break: break-all;
+}
+.item-link
 .item-tags {
     float: left;
     width: 25%;
@@ -176,6 +176,9 @@ p.abstract  {
     -webkit-hyphens: auto;
     -moz-hyphens: auto;
     hyphens: auto;
+    clear: right;
+    line-height: 1.6em;
+
 }
 .item-abstract {
     float: left;
@@ -183,15 +186,15 @@ p.abstract  {
     min-height: auto;
     margin-bottom: 1em;
 }
-/*
+
 .card-hole {
     clear: both;
-    margin-top: 0px;
-    margin-left: 49%;
-    font-size: 2.6em;
+    margin: 0;
+    /*font-size: 2.6em;*/
     width: 100%;
+    height: 1em;
 }
-*/
+
 .independent-note {
     background-color: lightyellow;
 }

@@ -67,9 +67,9 @@
 {{#each items}}
     <div class="one-item {{#if data.parentItem}} attached-note {{/if}} {{#if data.itemType.note}} independent-note {{/if}}">
         <!-- # is used to only output the data if they exist -->
-        <div class="item-type">{{#if data.parentItem}} &#10549; ATTACHED-<br />{{/if}}{{{ data.itemType }}}</div>
+        <div class="item-type">{{#if data.parentItem}} &#10549; <!--ATTACHED-<br />-->{{/if}}{{{ data.itemType }}}</div>
         <div class="item-reference"><em>{{ data.title }}</em>{{#if data.creators}}{{#each data.creators}}, {{ firstName }} {{ lastName }}{{/each}}{{/if}}{{#if data.publisher}}, {{ data.publisher }}{{/if}}{{#if data.date}}, {{ data.date }}{{/if}}</div>
-        <div class="item-tags">{{#if data.tags}}Tags:<br />{{#each data.tags}}<p>{{ tag }}</p>{{/each}}{{/if}}</div>
+        <div class="item-tags">{{#if data.tags}}TAGS: {{#each data.tags}}</br>{{ tag }} {{/each}}{{/if}}</div>
         <div class="item-abstract">
             {{#if data.abstractNote}}<p>Abstract: {{ data.abstractNote }}</p>{{/if}}
             <p>{{{ data.note }}}</p>
@@ -77,7 +77,7 @@
         <div class="item-link">
             {{#if data.url}}<p>Link: <a href="{{ data.url }}" target="_blank">{{ data.url }}</a></p>{{/if}}
         </div>
-        <div class="card-hole">&#10061;</div>
+        <div class="card-hole">&nbsp;</div>
     </div>
 {{/each}}
 </script>
@@ -143,6 +143,7 @@ var processData = function(inData) {
     /* gets the collection from zotero */
  $.getJSON('https://api.zotero.org/groups/1838445/collections/K8F8FGKJ/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
      /* if the query succeeds, the response will be available as the variable “data”: */
+     /* K8F8FGKJ = os-library in Zotero group
      /* this variable is sent to the template above */
         var processedData = processData(incomingData);
         $("#items-container").html(template({ items: processedData }));

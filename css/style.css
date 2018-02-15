@@ -68,6 +68,16 @@ p {
     line-height: 1.5em;
     padding-bottom: 1em;
 }
+
+p.abstract  {
+  display: block; /* or inline-block */
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  max-height: 3em;
+  line-height: 1em;
+}
+
 .drawer {
     padding: 20px;
 /*    border-left: 4px solid black;*/
@@ -107,7 +117,7 @@ p {
     border-top: 3px solid black;
     border-left: 3px solid black;
     background-color: white;
-    height: auto;
+    height: 400px;
     width: 700px;
     position: absolute;
     padding: 20px 30px;

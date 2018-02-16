@@ -1,4 +1,14 @@
-## creative commons
+## licenses
+
+All software is OSI compliant. Contributed code as GNU General Public License version 3.
+
+All content is open licensed [CC BY-SA 4.0 International](LICENSE.md)
+
+All fonts are OSI compliant.
+
+All data and metadata is CC 0.
+
+## Creative Commons
 
 # Attribution-ShareAlike 4.0 International
 

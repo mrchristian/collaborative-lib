@@ -56,6 +56,13 @@ Your locally running website will now be reading the content from your Zotero gr
 
 This is the end of Basics.
 
+## Tidying up
+
+
+
+## How it all works
+
+
 
 
 

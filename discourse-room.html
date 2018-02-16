@@ -52,7 +52,7 @@
     <meta property="og:description" content="a collaborative library"/>
     <meta property="og:type" content="webPage" />
 
-<title>Discourse Room</title>
+<title>Reading Room</title>
 <link rel="stylesheet" href="css/style.css">
 <link rel="stylesheet" href="fonts/webfont.css">
 
@@ -116,7 +116,7 @@ var processData = function(inData) {
 
 
     /* gets the collection from zotero */
- $.getJSON('https://api.zotero.org/groups/1838445/collections/UEMH5GKW/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
+ $.getJSON('https://api.zotero.org/groups/1838445/collections/BHE6RI6Z/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
      /* if the query succeeds, the response will be available as the variable “data”: */
      /* this variable is sent to the template above */
         var processedData = processData(incomingData);
@@ -128,11 +128,11 @@ var processData = function(inData) {
 </script>
 
 <div class="container">
-    <h1><a href="index.html">Collaborative<br />Open Science<br />Library</a></h1>
-    <h2>DISCOURSE ROOM</h2>
+    <h1><a href="index.html">Collaborative<br />Library<br />Prototyping</a></h1>
+    <h2>SOCIAL READING ROOM</h2>
 
 <div class="text-welcome">
-    <p>Where people can meet and comment on their readings…</p>
+    <p>Notes from people in the Collaborative Libraries collection (AKA Reading Room) on their readings and media use…</p>
 </div>
 
 <div id="items-container">

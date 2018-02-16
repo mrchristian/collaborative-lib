@@ -83,6 +83,13 @@ Next in 'Finishing up' will be to connect the other sample Zotero collection and
 
 
 
+## Tidying up
+
+
+
+## How it all works
+
+
 
 
 

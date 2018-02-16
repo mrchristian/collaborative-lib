@@ -123,7 +123,7 @@ var processData = function(inData) {
 }
 
     /* gets the collection from zotero */
- $.getJSON('https://api.zotero.org/groups/1838445/collections/MQHAQ5UC/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
+ $.getJSON('https://api.zotero.org/groups/1838445/collections/8N7GFWNH/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
      /* if the query succeeds, the response will be available as the variable “data”: */
      /* this variable is sent to the template above */
         var processedData = processData(incomingData);
@@ -135,14 +135,14 @@ var processData = function(inData) {
 </script>
 
 <div class="container">
-    <h1>Collaborative<br />Libraries<br />Prototype</h1>
+    <h1>Collaborative<br />Library<br />Prototyping</h1>
 
     <div id="items-container">
     </div>
 
     <div><p style="font-size: 1.2em; text-transform: uppercase;">Collections:</p></div>
     <a href="os-library.html"><div class="menu">
-    <div class="menu-cards"><h3>Open Science / Scholarship Library</h3><p>a specific collection of references on the theme <br />(work in progress)</p>
+    <div class="menu-cards"><h3>Social Library Space</h3><p>a specific collection of references on the theme <br />(work in progress)</p>
     </div></a>
 
     <a href="discourse-room.html"><div class="menu-cards" style="margin: 60px 0 0 30px;"><h3>Discourse Room</h3><p>where people can meet and comment on their readings</p>
@@ -151,8 +151,8 @@ var processData = function(inData) {
     <a href="https://www.zotero.org/groups/1838445" target="_blank"><div class="menu-cards" style="margin: 120px 0 0 60px;"><h3>more collections</h3><p>can be added through the <span style="color: blue; border-bottom: 1px solid blue;">Zotero group &#10548;</span></p>
     </div></a>
 
-    <a href="whole.html"><div class="menu-cards" style="margin: 180px 0 0 90px;"><h3>the whole shared library</h3><p>contains all the references shared in all the collections</p>
+    <a href="whole.html"><div class="menu-cards" style="margin: 180px 0 0 90px;"><h3>Open Science Library - the whole shared library</h3><p>contains all the references in a Zotero Group</p>
     </div></a>
 </div>
 
-    <p style="text-align: center; margin-top: 600px; padding-top: 30px;"><a href="https://www.zotero.org/groups/1838445" target="_blank">join (through the Zotero group)</a></p>
+    <p style="text-align: center; margin-top: 600px; padding-top: 30px;"><a href="https://www.zotero.org/groups/1838445" target="_blank">join the Open Science Library (through the Zotero group)</a></p>

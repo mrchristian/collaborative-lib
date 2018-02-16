@@ -38,7 +38,29 @@ Log into Zotero website and navigate to https://www.zotero.org/settings/keys . S
 
 Save.
 
-5. Next in Zotero we need to access a 'collection' in a 'group'. If you don't have a 'collection' already create one online.
+You will be presented with a key number, copy this and keep it in a text editor. If you need to get hold of your key again you can find it in the address of your 'key edit' page. Example key https://www.zotero.org/settings/keys/edit/mSXXZZUo4xiNPM0tQ0XXXXX
+
+5. Next in Zotero we need to access a 'collection' in a 'group'. If you don't have a 'collection' already create one online, go to 'Group Library' link in your online group and top left you can click the button to add a 'collection'. Once you have chosen your 'collection' navigate to its address online in your group, like so https://www.zotero.org/groups/1838445/o-s/items/collectionKey/BHE6RI6Z
+
+There are two parts that you need from this URL to connect your collection to Github-pages. The group number and the collection key. As you can see from the sample address above these will be 'group=1838445' and 'collection key=BHE6RI6Z'.
+
+6. Now to connect your first 'collection' to Github-pages, you will need your API key, group number and collection key. Navigate to the HTML file 'os-library.html' in your downloaded repository directory, open it in a text editor ( like https://atom.io/ ) and go to line 144
+
+`$.getJSON('https://api.zotero.org/groups/1838445/collections/BHE6RI6Z/items?key=mS6PZZUo4xiNPM0tQ0aXXXXX&limit=100&sort=title', function(incomingData)`
+
+Paste in your group number, collection key and API key like so above.
+
+Your locally running website will now be reading the content from your Zotero group's collection. You need to navigate to the first collection from your local home page /os-library.html, reload this page and you will see the changes.
+
+7. Now to load the page into Github and Githib-pages. 
+
+
+
+
+
+
+
+
 
 
 

@@ -52,7 +52,11 @@ Paste in your group number, collection key and API key like so above.
 
 Your locally running website will now be reading the content from your Zotero group's collection. You need to navigate to the first collection from your local home page /os-library.html, reload this page and you will see the changes.
 
-7. Now to load the page into Github and Githib-pages. 
+7. Now to load the repository into Github and Githib-pages. Got to your Github Desktop client and click on the repository to upload. You will need to add a 'summary' of changes, and then commit and push. Once accepted your files will be synched with GitHub and be available on your Github-pages address, https://username.github.io/collaborative-library-prototype/ where username is your personal user name or Github organisation name.
+
+This is the end of Basics.
+
+
 
 
 

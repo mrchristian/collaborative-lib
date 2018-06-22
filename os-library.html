@@ -141,7 +141,7 @@ var processData = function(inData) {
 
 
     /* gets the collection from zotero */
- $.getJSON('https://api.zotero.org/groups/1838445/collections/BHE6RI6Z/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
+ $.getJSON('https://api.zotero.org/groups/1838445/collections/ZKDWKM8S/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
      /* if the query succeeds, the response will be available as the variable “data”: */
      /* K8F8FGKJ = os-library in Zotero group
      /* this variable is sent to the template above */
@@ -154,9 +154,12 @@ var processData = function(inData) {
 </script>
 
 <div class="container">
-    <h1><a href="index.html">Collaborative<br />Library<br />Prototyping</a></h1>
-<h2>COLLABORATIVE LIBRARIES - HISTORIES / FUTURES</h2>
+  <h1><a href="index.html">Collab_Lib &mdash; α prototype</a></h1>
+  <h2>Research Software</h2>
 
+  <div class="text-welcome">
+      <p>&mdash; collaboratively maintained collection of software for research (using Zotero to make an curated list of research software, using tags, notes, etc.)</p>
+  </div>
 
 <div id="items-container">
 

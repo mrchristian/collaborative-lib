@@ -116,7 +116,7 @@ var processData = function(inData) {
 
 
     /* gets the collection from zotero */
- $.getJSON('https://api.zotero.org/groups/1838445/collections/BHE6RI6Z/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
+ $.getJSON('https://api.zotero.org/groups/1838445/collections/MA9C4EEC/items?key=mS6PZZUo4xiNPM0tQ0ars7sD&limit=100&sort=title', function(incomingData) {
      /* if the query succeeds, the response will be available as the variable “data”: */
      /* this variable is sent to the template above */
         var processedData = processData(incomingData);
@@ -128,11 +128,11 @@ var processData = function(inData) {
 </script>
 
 <div class="container">
-    <h1><a href="index.html">Collaborative<br />Library<br />Prototyping</a></h1>
-    <h2>SOCIAL READING ROOM</h2>
+  <h1><a href="index.html">Collab_Lib &mdash; α prototype</a></h1>
+  <h2>Reading Room Remix &mdash; 'Software Citation'</h2>
 
 <div class="text-welcome">
-    <p>Notes from people in the Collaborative Libraries collection (AKA Reading Room) on their readings and media use…</p>
+    <p>&mdash; a study of key issues and questions with illustrative excerpts (using the notes and comments functions in Zotero to create a gloss on headline issues in the area of software citation)</p>
 </div>
 
 <div id="items-container">

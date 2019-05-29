@@ -1,11 +1,3 @@
-# COLLABORATIVE LIBRARY PROTOTYPING
-
-Demo website https://hybrid-publishing-group.github.io/cos-library/
-
-Sample Zotero group https://www.zotero.org/groups/1838445/o-s
-
-Question, need help? See the wiki and issues above on the repository or DM on Twitter https://twitter.com/mrchristian99
-
 # How to make your own collaborative library prototype!
 
 ## The Basics
